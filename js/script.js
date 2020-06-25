@@ -14,7 +14,7 @@ $(document).ready(function() {
                     console.log(numero);
 
 
-                    $(element).text(numero).toggleClass('.open');
+                    $(element).text(numero);    
 
                     if (numero < 5) {
                         $(element).removeClass('green');

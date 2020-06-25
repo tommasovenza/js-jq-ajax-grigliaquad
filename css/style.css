@@ -18,18 +18,17 @@
     border: 1px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .green {
     background-color: #44b106;
-    width: 100px;
-    height: 100px;
 }
 
 .yellow {
     background-color: rgb(216, 238, 22);
-    width: 100px;
-    height: 100px;
 }
 
 .number {
