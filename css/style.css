@@ -22,8 +22,12 @@
 
 .green {
     background-color: #44b106;
+    width: 100%;
+    height: 100%;
 }
 
 .yellow {
     background-color: rgb(216, 238, 22);
+    width: 100%;
+    height: 100%;
 }
