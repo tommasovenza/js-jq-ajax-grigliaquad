@@ -13,7 +13,6 @@ $(document).ready(function() {
                     var numero = data.response;
                     console.log(numero);
 
-
                     $(element).text(numero);    
 
                     if (numero < 5) {
