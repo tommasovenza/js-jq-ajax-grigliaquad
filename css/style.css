@@ -19,3 +19,11 @@
     width: 100px;
     height: 100px;
 }
+
+.green {
+    background-color: #44b106;
+}
+
+.yellow {
+    background-color: rgb(216, 238, 22);
+}
