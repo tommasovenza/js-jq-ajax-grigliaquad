@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    width: 600px;
+    margin: 30px auto;
+}
+
+.riga {
+    display: flex;
+}
+
+.cella {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
