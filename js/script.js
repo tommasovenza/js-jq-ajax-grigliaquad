@@ -7,7 +7,12 @@ $(document).ready(function () {
                 url: "https://flynn.boolean.careers/exercises/api/random/int",
                 method: "GET",
                 success: function(data) {
-                    console.log(data)
+                    
+                    var numero = data.response;
+                    console.log(numero);
+
+
+                    $('.number').append(numero);
                 },
 
                 error: function() {
