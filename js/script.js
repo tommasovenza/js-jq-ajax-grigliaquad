@@ -1,6 +1,8 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $('.riga .cella').click(function () {
+    $('.riga .cella').click(function() {
+
+        var element = this;
 
         $.ajax(
             {
@@ -12,16 +14,14 @@ $(document).ready(function () {
                     console.log(numero);
 
 
-                    $('.riga .cella .number').text(numero);
-
-                    
+                    $(element).text(numero).toggleClass('.open');
 
                     if (numero < 5) {
-                        $('.riga .cella .number').removeClass('green');
-                        $('.riga .cella .number').addClass('yellow');
+                        $(element).removeClass('green');
+                        $(element).addClass('yellow');
                     } else {
-                        $('.riga .cella .number').removeClass('yellow');
-                        $('.riga .cella .number').addClass('green');
+                        $(element).removeClass('yellow');
+                        $(element).addClass('green');
                     }
                 },
 
